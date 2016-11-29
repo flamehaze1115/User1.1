@@ -113,6 +113,7 @@ public class MainActivity extends Activity {
         tv1[0].setHeight(y/8);
         tv1[0].setTextSize(15);
         tv1[0].setGravity(Gravity.CENTER);
+        tv1[0].setTextColor(Color.YELLOW);
 
         for(int i=1;i<9;i++)
         {
@@ -122,6 +123,7 @@ public class MainActivity extends Activity {
             tv1[i].setHeight(y/8);
             tv1[i].setTextSize(16);
             tv1[i].setGravity(Gravity.CENTER);
+            tv1[i].setTextColor(Color.YELLOW);
         }
 
         for(int i=0;i<9;i++)
@@ -135,6 +137,7 @@ public class MainActivity extends Activity {
         tv2[0].setHeight(y/8);
         tv2[0].setTextSize(16);
         tv2[0].setGravity(Gravity.CENTER);
+        tv2[0].setTextColor(Color.YELLOW);
 
         for(int i=1;i<9;i++)
         {
@@ -144,7 +147,8 @@ public class MainActivity extends Activity {
             tv2[i].setHeight(y/8);
             tv2[i].setTextSize(16);
             tv2[i].setGravity(Gravity.CENTER);
-            tv2[i].setBackgroundColor(Color.LTGRAY);
+            tv2[i].setTextColor(Color.YELLOW);
+            //tv2[i].setBackgroundColor(Color.LTGRAY);
         }
 
         for(int i=0;i<9;i++)
@@ -158,8 +162,9 @@ public class MainActivity extends Activity {
         btv1.setHeight(y/12);
         btv1.setText("WORKING");
         btv1.setTextSize(18);
+        btv1.setTextColor(Color.YELLOW);
         btv1.setGravity(Gravity.CENTER);
-        btv1.setBackgroundColor(Color.LTGRAY);
+        //btv1.setBackgroundColor(Color.LTGRAY);
 
         line5.addView(btv1);
 

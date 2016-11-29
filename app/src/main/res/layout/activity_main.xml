@@ -8,14 +8,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_black_2"
     tools:context="com.think.android.user.MainActivity">
 
     <LinearLayout
         android:id="@+id/picture"
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    <TextView
+    <!--<TextView
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -31,7 +32,16 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="@drawable/hammer_2"/>
+            android:background="@drawable/hammer_2"/> -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passive Positioning System"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:typeface="monospace"
+            android:textColor="#FFFFFFFF"/>
     </LinearLayout>
 
     <LinearLayout
